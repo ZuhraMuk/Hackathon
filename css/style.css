@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*! Nav START*/
+
+nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: rgba(4, 4, 15, 0.7);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 8%;
+  height: 90%;
+  border-radius: 50%;
+  background-image: url(../img/z.jpg);
+  background-position: fixed center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 12px 4px rgba(211, 211, 211, 0.92);
+  cursor: none;
+}
+
+.navbar {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.navbar__item {
+  width: 15%;
+  height: 60%;
+  font-size: 18px;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__item a {
+  text-decoration: none;
+  color: white;
+}
+.navbar__item:hover {
+  border-bottom: 1px solid white;
+}
+
+/*! Nav END */
+
+/*! Main block START */
+/* Bacground START */
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+.bacground {
+  width: 80%;
+  height: 100%;
+  background-image: url(../img/main__bacground.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: "Oleo Script Swash Caps", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+.bacground__hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(33, 32, 32, 0.7);
+}
+.bacground__hover p {
+  font-size: 23px;
+  font-weight: 400;
+  color: rgb(241, 239, 239);
+  margin: 10px 0 10px 0;
+}
+.bacground__hover h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(241, 239, 239);
+}
+/*  Bacground END */
+
+/*todo My profile START */
+.info-block {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(4, 4, 15, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo__info {
+  width: 35%;
+  height: 20%;
+}
+.info-block h3 {
+  font-size: 20px;
+  color: white;
+  margin: 10px 0 10px 0;
+}
+.info-block p {
+  width: 65%;
+  font-size: 16px;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+.icon i {
+  margin: 20px 10px 0 10px;
+  color: rgb(231, 230, 230);
+}
+/*todo My profile END */
+
+/*! Main block END */
+
+/* ! Section-2 START */
+.stn-2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(125, 125, 125, 0.5);
+}
+/* About me START */
+.about-me {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(196, 194, 194, 0.9);
+}
+.about-me h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.about-me p {
+  width: 70%;
+  font-size: 20px;
+  line-height: 40px;
+}
+/* About me END */
+/* todo Skills START */
+.skills {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.skills__info {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.skills__text {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.skills__progress {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+#progress1 {
+  width: 70%;
+  height: 2px;
+  background-color: black;
+}
+#progress2 {
+  width: 5%;
+  height: 2px;
+  background-color: black;
+}
+#progress3 {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+}
+#progress4 {
+  width: 30%;
+  height: 2px;
+  background-color: black;
+}
+/* todo Skills END */
+/* !Section-2 END */
+
+/*! Section-3 START */
+#education__date {
+  justify-content: space-around;
+  align-items: flex-start;
+  border-right: 1px solid rgb(57, 57, 57);
+  margin-right: 10px;
+}
+.portfolio {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 194, 194, 0.9);
+}
+.portfolio h2 {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+.portfolio__block {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.portfolio__click {
+  width: 180px;
+  height: 45%;
+  background-color: aqua;
+  margin: 5px 0 5px 0;
+}
+.portfolio__click img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio__click:hover {
+  box-shadow: 0px 0px 12px 4px rgba(103, 103, 103);
+}
+/*! Section-3 END */
+
+/* !Footer START */
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.social {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social h2 {
+  font-size: 20px;
+  color: white;
+}
+.social__item {
+  width: 250px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.email-number {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email-number p {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+/* !Footer END */
+
+/* Media */
+@media all and (max-width: 1400px) {
+  .info-block {
+    width: 30%;
+  }
+  .bacground {
+    width: 70%;
+  }
+}
+@media all and (max-width: 1150px) {
+  .portfolio__click {
+    width: 145px;
+  }
+}
+@media all and (max-width: 950px) {
+  .navbar__item {
+    font-size: 15px;
+  }
+  #stn-3 {
+    height: 400px;
+  }
+  .portfolio__click {
+    height: 30%;
+  }
+}
+@media all and (max-width: 800px) {
+  .about-me h2 {
+    font-size: 25px;
+  }
+  .about-me p {
+    width: 80%;
+    font-size: 16.8px;
+  }
+  .skills h2 {
+    font-size: 26px;
+  }
+  .skills__text {
+    font-size: 13.5px;
+  }
+  .skills__info {
+    height: 50%;
+  }
+  #education__text {
+    font-size: 15px;
+  }
+  .info-block h3 {
+    font-size: 17px;
+  }
+  .info-block p {
+    font-size: 14px;
+  }
+  .navbar__item {
+    font-size: 13.5px;
+  }
+}
+@media all and (max-width: 670px) {
+  .about-me h2 {
+    font-size: 22px;
+  }
+  .about-me p {
+    width: 80%;
+    font-size: 14.8px;
+  }
+  .skills h2 {
+    font-size: 24px;
+  }
+  .skills__text {
+    font-size: 13.5px;
+  }
+  #education__text {
+    font-size: 12px;
+  }
+  .info-block h3 {
+    font-size: 17px;
+  }
+  .info-block p {
+    font-size: 14px;
+  }
+  .navbar__item {
+    font-size: 11px;
+  }
+  .portfolio h2 {
+    font-size: 25px;
+  }
+  .portfolio__click {
+    height: 27%;
+    width: 140px;
+  }
+  .social h2 {
+    font-size: 17.5px;
+  }
+}
+@media all and (max-width: 590px) {
+  .logo {
+    width: 15%;
+  }
+  #logo__info {
+    width: 46%;
+  }
+  .info-block {
+    width: 53%;
+  }
+  .portfolio__click {
+    height: 27%;
+    width: 120px;
+  }
+  .about-me p {
+    width: 80%;
+    font-size: 12.8px;
+  }
+  .skills__text {
+    font-size: 10.5px;
+  }
+  #education__text {
+    font-size: 11.2px;
+  }
+  .bacground__hover p {
+    font-size: 20px;
+  }
+  .bacground__hover h1 {
+    font-size: 28px;
+  }
+  .navbar__item {
+    font-size: 9.5px;
+  }
+}
+@media all and (max-width: 490px) {
+  .about-me p {
+    width: 80%;
+    font-size: 10.8px;
+  }
+  .skills__text {
+    font-size: 8.5px;
+  }
+  #education__text {
+    font-size: 9.2px;
+  }
+  #stn-3 {
+    height: 290px;
+  }
+  .portfolio__click {
+    width: 110px;
+  }
+}
