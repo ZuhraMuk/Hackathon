@@ -51,6 +51,9 @@ nav {
 .navbar__item:hover {
   border-bottom: 1px solid white;
 }
+.fa-solid {
+  display: none;
+}
 
 /*! Nav END */
 
@@ -306,7 +309,7 @@ footer {
 /* !Footer END */
 
 /* Media */
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1200px) {
   .info-block {
     width: 30%;
   }
@@ -447,5 +450,113 @@ footer {
   }
   .portfolio__click {
     width: 110px;
+  }
+}
+@media all and (max-width: 480px) {
+  .logo {
+    width: 20%;
+  }
+  .main {
+    flex-direction: column;
+    height: 800px;
+  }
+  .bacground {
+    width: 100%;
+    height: 400px;
+  }
+  .info-block {
+    width: 100%;
+    height: 400px;
+  }
+  #logo__info {
+    width: 28%;
+    height: 33%;
+  }
+  .info-block h3 {
+    font-size: 23px;
+  }
+  .info-block p {
+    width: 200px;
+    font-size: 18px;
+  }
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar__item {
+    display: none;
+  }
+  .fa-solid {
+    display: flex;
+    color: white;
+  }
+  .stn-2 {
+    flex-direction: column;
+    height: 500px;
+  }
+  .about-me,
+  .skills {
+    width: 100%;
+    height: 50%;
+  }
+  .skills h2 {
+    font-size: 30px;
+  }
+  .about-me h2 {
+    font-size: 30px;
+  }
+  .about-me p {
+    width: 75%;
+    font-size: 14.8px;
+  }
+  .skills__text {
+    font-size: 12.5px;
+  }
+  #stn-3 {
+    height: 500px;
+  }
+  .portfolio {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(151, 151, 151, 0.4);
+  }
+  #education-id {
+    background-color: rgb(196, 194, 194, 0.9);
+    height: 50%;
+  }
+  .portfolio__click {
+    width: 130px;
+    height: 38%;
+  }
+  #education__text {
+    font-size: 12.2px;
+  }
+}
+@media all and (max-width: 400px) {
+  #stn-3 {
+    height: 600px;
+  }
+  .portfolio {
+    height: 60%;
+  }
+  #education-id {
+    height: 40%;
+  }
+  .portfolio__click {
+    width: 140px;
+    height: 30%;
+  }
+  #education__text {
+    font-size: 11.4px;
+  }
+}
+@media all and (max-width: 350px) {
+  .logo {
+    width: 25%;
+  }
+  #logo__info {
+    height: 26%;
+  }
+  .skills__text {
+    font-size: 10.5px;
   }
 }
