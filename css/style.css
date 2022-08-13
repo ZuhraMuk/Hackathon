@@ -51,7 +51,7 @@ nav {
 .navbar__item:hover {
   border-bottom: 1px solid white;
 }
-.fa-solid {
+#fa-solid-id {
   display: none;
 }
 
@@ -485,7 +485,7 @@ footer {
   .navbar__item {
     display: none;
   }
-  .fa-solid {
+  #fa-solid-id {
     display: flex;
     color: white;
   }
